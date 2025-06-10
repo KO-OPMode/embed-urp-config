@@ -1,4 +1,5 @@
 {
+  "author": "KO_OP",
   "name": "com.unity.render-pipelines.universal-config",
   "description": "Configuration files for the Universal Render Pipeline.",
   "version": "17.0.3",
