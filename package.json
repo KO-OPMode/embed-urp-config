@@ -2,7 +2,7 @@
   "author": "KO_OP",
   "name": "com.unity.render-pipelines.universal-config",
   "description": "Configuration files for the Universal Render Pipeline.",
-  "version": "17.0.3",
+  "version": "17.0.4",
   "unity": "6000.0",
   "displayName": "Universal RP Config",
   "dependencies": {
