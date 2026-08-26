@@ -22,7 +22,11 @@ namespace UnityEngine.Rendering.Universal
         // ys custom start
         // Reduce our number of lights on desktop to 256 to optimize shader build times
         /// <summary>Max number of lights supported on desktop platforms.</summary>
+        #if UNITY_XBOXONE
         public const int k_MaxVisibleLightCountDesktop = 32;
+        #else
+        public const int k_MaxVisibleLightCountDesktop = 64;
+        #endif
         // ys custom end
 
         /// <summary> Switch fog keywords (FOG_LINEAR, FOG_EXP and FOG_EXP2) to dynamic branching.</summary>
